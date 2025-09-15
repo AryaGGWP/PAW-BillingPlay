@@ -129,7 +129,7 @@ const Laporan = () => {
 
       {laporan.length > 0 && (
         <button onClick={handleExportPdf} style={buttonStyle}>
-          Export ke PDF
+          Cetak Laporan ke PDF
         </button>
       )}
     </div>
